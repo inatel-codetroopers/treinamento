@@ -77,6 +77,7 @@ int idade;
 char nome[101];
 
 cin >> idade;
+cin.ignore();
 cin.getline(nome, 100);
 cout << "Ola, meu nome eh " << nome << " e eu tenho " << idade << "anos." << endl;
 ```
