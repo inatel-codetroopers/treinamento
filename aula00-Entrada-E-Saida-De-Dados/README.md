@@ -3,7 +3,7 @@
 
 ## Entrada numérica
 
-<details><summary>Ver Conteúdo</summary>
+<details><summary>Exibir</summary>
 
 <ol>
 
@@ -68,7 +68,7 @@ printf("%.4lf\n", pi);
 
 ## Entrada texto
 
-<details><summary>Ver Conteúdo</summary>
+<details><summary>Exibir</summary>
 <ol>
 
 
@@ -134,7 +134,7 @@ cout << "Ola, meu nome eh " << nome << " e eu tenho " << idade << "anos." << end
 
 ## Entrada até EOF
 
-<details><summary>Ver Conteúdo</summary>
+<details><summary>Exibir</summary>
 
 <ol>
 
