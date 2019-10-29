@@ -1,9 +1,9 @@
 /*
-A complexidade de uma busca bin·ria È O(log n).
-Algoritmos de complexidade logarÌtmica s„o
-extremamente r·pidos. Para se ter uma ideia, pela
-busca bin·ria È possÌvel encontrar um elemento em
-um vetor de 10^18 elementos com apenas 60 operaÁıes.
+A complexidade de uma busca bin√°ria √© O(log n).
+Algoritmos de complexidade logar√≠tmica s√£o
+extremamente r√°pidos. Para se ter uma ideia, pela
+busca bin√°ria √© poss√≠vel encontrar um elemento em
+um vetor de 10^18 elementos com apenas 60 opera√ß√µes.
 */
 
 #include <bits/stdc++.h>
@@ -51,7 +51,7 @@ int main()
 			
 			else
 			{
-				while(v[meio-1] == v[meio] && meio != 0)
+				while (meio > 0 && v[meio-1] == v[meio])
 					meio--;
 				
 				cout << busca << " found at " << meio + 1 << endl;
