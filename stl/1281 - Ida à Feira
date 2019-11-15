@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(void) {
+	map <string, double> mp;
+	
+	int n;
+	cin >> n;
+	for(int i = 0; i < n; i++)
+	{
+		int m, p;
+		cin >> m;
+		string nome;
+		double preco;
+		while(m--)
+		{
+			cin >> nome >> preco;
+			mp[nome] = preco;
+		}
+		
+		cin >> p;
+		int qt;
+		double custo = 0;
+		while(p--)
+		{
+			cin >> nome >> qt;
+			custo += qt * mp[nome];
+		}
+		
+		cout << fixed << setprecision(2) << "R$ " << custo << endl;
+	}
+	
+	return 0;
+}
